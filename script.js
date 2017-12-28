@@ -51,7 +51,7 @@
                   else if(d[2]<1000000) return 5;
                   else if(d[2]<10000000) return 10;
                   else return 20; })
-                 .attr("fill", "rgba(255, 50, 50, 0.8")
+                 .attr("fill", "rgba(255, 50, 50, 0.8)"
                  .attr("class", "circle")
                  .on("mouseover", (d) => {
               tooltip.style("display", "block");
