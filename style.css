@@ -2,18 +2,21 @@
       box-sizing: border-box;
     }
       path {
-        stroke: green;
+        stroke: blue;
         stroke-width: 0.5px;
         fill: gold;
       }
       circle {
-        stroke: green;
+        stroke: black;
         stroke-width: 0.5px;
+      }
+      .circle:hover {
+        fill: darkred;
       }
       svg {
         margin: auto;
         padding: 0;
-        background: blue;
+        background: lightblue;
       }
       #tooltip {
           display: none;
