@@ -1,0 +1,25 @@
+* {
+      box-sizing: border-box;
+    }
+      path {
+        stroke: green;
+        stroke-width: 0.5px;
+        fill: gold;
+      }
+      circle {
+        stroke: green;
+        stroke-width: 0.5px;
+      }
+      svg {
+        margin: auto;
+        padding: 0;
+        background: blue;
+      }
+      #tooltip {
+          display: none;
+          padding: 3px;
+          box-shadow: -2px 2px 10px black;
+          z-index: 1;
+          position: absolute;
+          background-color: lightblue;
+        }
